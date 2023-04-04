@@ -1,20 +1,37 @@
 
 
-function recipeData(recipe){
+function displayRecipe(recipe){
 
-    let card = document.createElement('div')
-    card.className = 'card'
-    card.innerHTML = `
-    <img src ="${recipe.name}">
-    <div class = "content">
-    <p>  "${recipe.description}"</p>
+   let card = ''
+   recipe.forEach(recipes => {
+
+
+    card+=`
+
+    <div class = 'card'>
+    
+    <img src = "${recipes.imageUrl}">
+    <p>  ${recipes.description}</p>
+    <p> ${ recipes.ingredients}</p>
+    <p> ${recipes.method}</p>
+    </div>
+    
+    
     
     `
-
-    document.querySelector('#recipe-info').appendChild(card)
-
+   });
+   document.querySelector ("#recipe-info").innerHTML = card
 }
 
-fetch('http://localhost:3000/recipes')
-    .then(response => response.json())
-    .then(data => data.forEach(recipe =>recipeData));
+
+    
+ function fetchRecipes()   {
+     fetch('http://localhost:3000/recipes')
+    .then(res => res.json())
+    .then(recipes => displayRecipe(recipes))
+
+        
+    }
+
+    fetchRecipes();
+
