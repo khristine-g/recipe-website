@@ -9,8 +9,10 @@ function displayRecipe(recipe){
     card+=`
 
     <div class = 'card'>
+    <h3> ${recipes.name}</h3>
     
-    <img src = "${recipes.imageUrl}">
+    <img src = "${recipes.imageUrl}"  height="60%" width="60%">
+    
     <p>  ${recipes.description}</p>
     <p> ${ recipes.ingredients}</p>
     <p> ${recipes.method}</p>
