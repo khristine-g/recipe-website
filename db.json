@@ -7,6 +7,7 @@
         "name":"Zucchini Mushroom Veggie Bowl",
         "imageUrl":" https://img.freepik.com/premium-photo/diet-menu-healthy-vegetarian-meal-mushrooms-shiitake-zucchini-oatmeal-porridge-bowl-vegan-food_2829-6126.jpg?w=2000",
         "description":"Less than 300 calories a serving ",
+        "heading":" Ingredients",
         "ingredients":[
 
             "1 zucchini",
@@ -166,8 +167,9 @@
     "type":"vegan",
     "id":5,
     "name":"  vegetable pumpkin stir-fry",
-    "imageUrl":"",
+    "imageUrl":"https://media.healthyfood.com/wp-content/uploads/2016/11/Chicken-and-pumpkin-stir-fry-1024x650.jpg",
     "description":"  ",
+    "heading":" Ingredients",
     "ingredients":[
 
         "2 heaped tbsp 100% canned pumpkin puree",

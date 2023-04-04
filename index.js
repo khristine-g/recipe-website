@@ -11,11 +11,12 @@ function displayRecipe(recipe){
     <div class = 'card'>
     <h3> ${recipes.name}</h3>
     
-    <img src = "${recipes.imageUrl}"  height="60%" width="60%">
+    <img  src = "${recipes.imageUrl}"  height="400px" width="400px">
     
-    <p>  ${recipes.description}</p>
-    <p> ${ recipes.ingredients}</p>
-    <p> ${recipes.method}</p>
+   //  <p>  ${recipes.description}</p>
+   //  <p> ${recipes.heading}</p>
+   //  <p> ${ recipes.ingredients}</p>
+   //  <p> ${recipes.method}</p>
     </div>
     
     
@@ -25,6 +26,20 @@ function displayRecipe(recipe){
    document.querySelector ("#recipe-info").innerHTML = card
 }
 
+document.getElementById("my-image").addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("my-image").innerHTML = `
+  
+  
+  <p>  ${recipes.description}</p>
+    <p> ${recipes.heading}</p>
+    <p> ${ recipes.ingredients}</p>
+    <p> ${recipes.method}</p>
+  
+  
+  `
+}
 
     
  function fetchRecipes()   {
