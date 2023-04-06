@@ -1,4 +1,38 @@
-/* .card{
-    height: 500px;
-    width: 500px;
-} */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.divDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .divCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  h1{
+    /* text-shadow: 2px 2px 5px red; */
+    color: blueviolet;
+    text-align: center;
+  }
+  h5{
+    color: blueviolet;
+    text-align: center;
+    padding-bottom: 40px;
+    
+  }
+  h4{
+    color: darkmagenta;
+    text-align: center;
+    padding-bottom: 40px;
+
+
+  }
+  
+  
