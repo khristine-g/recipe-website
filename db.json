@@ -1,80 +1,33 @@
 {
   "recipes": [
-
-    {
-        "type": "vegan",
-        "id": 1,
-        "name": " Grilled Asian BBQ Tofu",
-        "imageUrl": " https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2Farchive%2F73b1e6af16c7867ab8c7b67c433b18dfd8692300",
-        "description": " Tasty and filling plant-based diet recipe ",
-        "heading":"ingredients",
-        "ingredients": [
-            "1 pkg (13 oz) Wegmans Tofu (Frozen Foods), thawed",
-            "1/4 cup Wegmans Asian-Style BBQ Sauce"
-        ],
-        "steps":"directions",
-        "method": [
-            "Preheat grill on HIGH 10 min. ",
-            "Coat cleaned grill grate lightly with vegetable oil. ",
-            "Reduce heat to MED-LOW.",
-            "Baste tofu with barbecue sauce; place on grill. ",
-            "Grill 15-20 min (to allow tofu to be caramelized on the outside and warmed through), turning frequently and basting as desired.", 
-            "Watch carefully to prevent burning. Slice and serve."
-        ]
-      },
-
-
-    {
-        "type": "vegan",
-        "id": 2,
-        "name": " Grilled Asian BBQ Tofu",
-        "imageUrl": " https://www.thespruceeats.com/thmb/XcY0lej6LoghgR1UiivgAqjagWA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/baked-tofu-in-korean-barbecue-sauce-3378132-hero-01-14ff62d64fd84e86ad415586aa9cce4a.jpg",
-        "description": " Tasty and filling plant-based diet recipe ",
-        "ingredients": [
-            "1 pkg (13 oz) Wegmans Tofu (Frozen Foods), thawed",
-            "1/4 cup Wegmans Asian-Style BBQ Sauce"
-        ],
-        "method": [
-            "Preheat grill on HIGH 10 min. ",
-            "Coat cleaned grill grate lightly with vegetable oil. ",
-            "Reduce heat to MED-LOW.",
-            "Baste tofu with barbecue sauce; place on grill. ",
-            "Grill 15-20 min (to allow tofu to be caramelized on the outside and warmed through), turning frequently and basting as desired.", 
-            "Watch carefully to prevent burning. Slice and serve."
-        ]
-      },
-
-
-    {
-        "type": "vegan",
-        "id": 2,
-        "name": " Veggie Spaghetti with Beans & Sauce",
-        "imageUrl": " https://www.budgetbytes.com/wp-content/uploads/2010/06/Tuscan-White-Bean-Pasta-bowl.jpg",
-        "description": " Tasty and filling plant-based diet recipe ",
-        "ingredients": [
-            "1 tsp Wegmans Basting Oil",
-            "1 pkg (12 oz) Wegmans Veggie Blend Spaghetti",
-            "Salt and pepper to taste",
-            "1 can (15 oz) Wegmans Organic Cannellini Beans, drained, rinsed",
-            "1 jar (13 oz) Wegmans Amore Pizza Sauce or your favorite tomato sauce"
-        ],
-        "method": [
-            "Heat oil in large sauté pan on MED-HIGH until oil faintly smokes. Add veggie spaghetti; cook, stirring occasionally, 3 min. Season with salt and pepper.",
-            "Add beans and sauce; stir gently to combine. Cook, stirring occasionally, about 2 min. Season with salt and pepper.",
-            "Chef Tips: *Garnish with Italian Classics Shredded Italian Blend (Cheese Shop). *For added flavor, add 1/4 cup Wegmans Banana Pepper Rings"
-            
-        ]
-      },
-
-
-
     {
       "type": "vegan",
       "id": 3,
+      "name": " Veggie Spaghetti with Beans & Sauce",
+      "imageUrl": " https://www.budgetbytes.com/wp-content/uploads/2010/06/Tuscan-White-Bean-Pasta-bowl.jpg",
+      "description": " Tasty and filling plant-based diet recipe ",
+      "heading": " Ingredients",
+      "ingredients": [
+        "1 tsp Wegmans Basting Oil",
+        "1 pkg (12 oz) Wegmans Veggie Blend Spaghetti",
+        "Salt and pepper to taste",
+        "1 can (15 oz) Wegmans Organic Cannellini Beans, drained, rinsed",
+        "1 jar (13 oz) Wegmans Amore Pizza Sauce or your favorite tomato sauce"
+      ],
+      "steps": "directions",
+      "method": [
+        "Heat oil in large sauté pan on MED-HIGH until oil faintly smokes. Add veggie spaghetti; cook, stirring occasionally, 3 min. Season with salt and pepper.",
+        "Add beans and sauce; stir gently to combine. Cook, stirring occasionally, about 2 min. Season with salt and pepper.",
+        "Chef Tips: *Garnish with Italian Classics Shredded Italian Blend (Cheese Shop). *For added flavor, add 1/4 cup Wegmans Banana Pepper Rings"
+      ]
+    },
+    {
+      "type": "vegan",
+      "id": 4,
       "name": " Mushroom Macaroni and Cheese",
       "imageUrl": " https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/2/5/0/FNM_030119-Stovetop-Mac-and-Cheese-with-Mushrooms_s4x3.jpg.rend.hgtvcom.616.462.suffix/1549388049630.jpeg",
       "description": " Tasty and filling plant-based diet recipe ",
-      "rating":4,
+      "heading": " Ingredients",
       "ingredients": [
         "1 cup of Elbow macaroni and cheese",
         "1 tablespoon olive oil",
@@ -87,6 +40,7 @@
         "3 cups spinach",
         "1 cup shredded mild cheddar cheese "
       ],
+      "steps": "directions",
       "method": [
         "Bring pot of water to a bowl. ",
         "Add in margarine and macaroni and cheese.",
@@ -99,10 +53,11 @@
     },
     {
       "type": "vegan",
-      "id": 4,
+      "id": 5,
       "name": " Sesame Tofu and Spinach Stirfry",
       "imageUrl": " https://static01.nyt.com/images/2019/05/15/dining/10apperex/merlin_153889965_feea5b25-bb89-4efe-b218-2457f27c8cc0-master768.jpg",
-      "description": "  ",
+      "description": " Tasty and filling plant-based diet recipe ",
+      "heading": " Ingredients",
       "ingredients": [
         "300 g organic, firm tofu",
         "1 tbsp coconut oil",
@@ -116,6 +71,7 @@
         "1/4 tsp chili flakes",
         "12 almonds"
       ],
+      "steps": "directions",
       "method": [
         "Drain the tofu. ",
         "Wrap each block in a double layer of paper towels and pat dry, pressing down on the tofu lightly to squeeze out excess moisture. ",
@@ -130,10 +86,10 @@
     },
     {
       "type": "vegan",
-      "id": 5,
+      "id": 6,
       "name": "  vegetable pumpkin stir-fry",
       "imageUrl": "https://media.healthyfood.com/wp-content/uploads/2016/11/Chicken-and-pumpkin-stir-fry-1024x650.jpg",
-      "description": "  ",
+      "description": " This vegan pumpkin stir-fry, made with Red Kuri squash or any other pumkin variety, is ready in under 30 minutes.  ",
       "heading": " Ingredients",
       "ingredients": [
         "2 heaped tbsp 100% canned pumpkin puree",
@@ -147,6 +103,7 @@
         "1/2 tsp cinnamon or pumpkin pie spice",
         "1/2 tsp vanilla extract"
       ],
+      "steps": "directions",
       "method": [
         "Simply stir all ingredients (except for the coconut yogurt and pepitas) together with a fork in a mug or ramekin.",
         "It should be nice and thick.",
@@ -156,23 +113,24 @@
         "Top with 2 heaped tbsp of plain coconut yogurt or greek yoghurt and sprinkle with pepitas and extra cinnamon. You may want to sprinkle a little extra stevia for sweetness if you’re a sweet tooth!"
       ]
     },
-    
     {
       "type": "vegetarian",
       "id": 7,
       "name": " Mediterranean Zucchini Noodles",
       "imageUrl": " https://parsleyandparm.com/wp-content/uploads/2022/07/mediterranean-zucchini-spaghetti-4.jpg",
       "description": " Tasty and filling plant-based diet recipe ",
+      "heading": " Ingredients",
       "ingredients": [
-       "1 jar (10 oz) Italian Classics Sun-Dried Tomatoes with Capers, drained (reserve 5 Tbsp oil), thinly sliced",
+        "1 jar (10 oz) Italian Classics Sun-Dried Tomatoes with Capers, drained (reserve 5 Tbsp oil), thinly sliced",
         "1 lb Wegmans Zucchini Noodles",
         "1 tsp chopped Wegmans Peeled Garlic",
-       " Salt and pepper to taste",
+        " Salt and pepper to taste",
         "1/2 cup dry white wine (optional)",
         "1 pkg (5 oz) Wegmans Organic Baby Spinach",
         "1 container (4 oz) Wegmans Fresh Crumbled Goat Cheese (Cheese Shop)",
         "Wegmans Chopped Walnuts, toasted, for garnish"
       ],
+      "steps": "directions",
       "method": [
         "Heat 2 Tbsp reserved oil in large sauté pan on MED-HIGH. Add zucchini noodles; cook, stirring occasionally, 4-5 min. Transfer zucchini noodles to serving platter.",
         "Add remaining reserved oil to same pan on MED-LOW. Add garlic, salt, and pepper. Cook, stirring occasionally, 2-3 min until garlic is browned.",
@@ -181,10 +139,11 @@
     },
     {
       "type": "vegetarian",
-      "id": 9,
+      "id": 8,
       "name": " Spiced carrot & lentil soup",
       "imageUrl": " https://www.realsimple.com/thmb/EM1REGUWpV_Lr_gqlXWt4EGXbtw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/0221DIN_-Carrot-and-red-lentil-soup_10718-425cb4d3824942bda0ff32e6a8656ede.jpg",
       "description": " A delicious, spicy blend packed full of iron and low in fat to boot. It's ready in under half an hour, or can be made in a slow cooker ",
+      "heading": " Ingredients",
       "ingredients": [
         "300 g organic, firm tofu",
         "1 tbsp coconut oil",
@@ -198,6 +157,7 @@
         "1/4 tsp chili flakes",
         "12 almonds"
       ],
+      "steps": "directions",
       "method": [
         "Drain the tofu. ",
         "Wrap each block in a double layer of paper towels and pat dry, pressing down on the tofu lightly to squeeze out excess moisture. ",
@@ -210,48 +170,45 @@
         "Add a large handful of spinach, stirring as you go so that it wilts and you can fit more in the pan. Keep doing this until its all in there. It seems like such a huge amount of leaves but it will cook down so much it's crazy. Finally, stir in the sesame oil and then remove from the heat. Sprinkle the reserved green onions, chopped almonds and chili over the top. Serve hot, with cauliflower rice, along with a few dashes of additional tamari if you like. "
       ]
     },
-
-    {
-        "type": "vegetarian",
-        "id": 9,
-        "name": " Spiced carrot & lentil soup",
-        "imageUrl": " https://images.immediate.co.uk/production/volatile/sites/30/2021/08/Butternut-squash-tagine-2605ccf.jpg?quality=90&resize=556,505",
-        "description": " A delicious, spicy blend packed full of iron and low in fat to boot. It's ready in under half an hour, or can be made in a slow cooker ",
-        "ingredients": [
-          "300 g organic, firm tofu",
-          "1 tbsp coconut oil",
-          "2 tbsp tamari",
-          "2 garlic cloves, crushed",
-          "1 tbsp fresh grated ginger",
-          "1/2 cup spring onions, chopped",
-          "4 large handfuls of spinach (at least 200g)",
-          "1 tsp sesame oil",
-          "1/2 head cauliflower",
-          "1/4 tsp chili flakes",
-          "12 almonds"
-        ],
-        "method": [
-          "Drain the tofu. ",
-          "Wrap each block in a double layer of paper towels and pat dry, pressing down on the tofu lightly to squeeze out excess moisture. ",
-          "Cut the tofu into ¾ inch cubes.",
-          "In a large wok, heat the coconut oil over medium-high heat. ",
-          "Once the oil is hot, add the tofu and drizzle with 2 tablespoon tamari. ",
-          "Sauté, stirring every minute or so until the tofu is nicely coloured on all sides and the moisture has cooked off, for about 8 minutes.",
-          "In a skillet, add olive oil, mushrooms, spinach, thyme and HerbalGoodness Guayusa Powder.",
-          "Don’t feel that you need to stir constantly though as when you let it sit for a while, it goes nice and brown which is what you want! Add the crushed garlic, roughly 3/4s of the chopped spring onions, ginger and the remaining 2 tablespoons of tamari. Stir and cook until fragrant, about 1 minute.",
-          "Add a large handful of spinach, stirring as you go so that it wilts and you can fit more in the pan. Keep doing this until its all in there. It seems like such a huge amount of leaves but it will cook down so much it's crazy. Finally, stir in the sesame oil and then remove from the heat. Sprinkle the reserved green onions, chopped almonds and chili over the top. Serve hot, with cauliflower rice, along with a few dashes of additional tamari if you like. "
-        ]
-      },
-  
-
-
-    
     {
       "type": "vegetarian",
-      "id": 5,
+      "id": 9,
+      "name": " Spiced carrot & lentil soup",
+      "imageUrl": " https://images.immediate.co.uk/production/volatile/sites/30/2021/08/Butternut-squash-tagine-2605ccf.jpg?quality=90&resize=556,505",
+      "description": " A delicious, spicy blend packed full of iron and low in fat to boot. It's ready in under half an hour, or can be made in a slow cooker ",
+      "heading": " Ingredients",
+      "ingredients": [
+        "300 g organic, firm tofu",
+        "1 tbsp coconut oil",
+        "2 tbsp tamari",
+        "2 garlic cloves, crushed",
+        "1 tbsp fresh grated ginger",
+        "1/2 cup spring onions, chopped",
+        "4 large handfuls of spinach (at least 200g)",
+        "1 tsp sesame oil",
+        "1/2 head cauliflower",
+        "1/4 tsp chili flakes",
+        "12 almonds"
+      ],
+      "steps": "directions",
+      "method": [
+        "Drain the tofu. ",
+        "Wrap each block in a double layer of paper towels and pat dry, pressing down on the tofu lightly to squeeze out excess moisture. ",
+        "Cut the tofu into ¾ inch cubes.",
+        "In a large wok, heat the coconut oil over medium-high heat. ",
+        "Once the oil is hot, add the tofu and drizzle with 2 tablespoon tamari. ",
+        "Sauté, stirring every minute or so until the tofu is nicely coloured on all sides and the moisture has cooked off, for about 8 minutes.",
+        "In a skillet, add olive oil, mushrooms, spinach, thyme and HerbalGoodness Guayusa Powder.",
+        "Don’t feel that you need to stir constantly though as when you let it sit for a while, it goes nice and brown which is what you want! Add the crushed garlic, roughly 3/4s of the chopped spring onions, ginger and the remaining 2 tablespoons of tamari. Stir and cook until fragrant, about 1 minute.",
+        "Add a large handful of spinach, stirring as you go so that it wilts and you can fit more in the pan. Keep doing this until its all in there. It seems like such a huge amount of leaves but it will cook down so much it's crazy. Finally, stir in the sesame oil and then remove from the heat. Sprinkle the reserved green onions, chopped almonds and chili over the top. Serve hot, with cauliflower rice, along with a few dashes of additional tamari if you like. "
+      ]
+    },
+    {
+      "type": "vegetarian",
+      "id": 10,
       "name": "  vegetable pumpkin stir-fry",
       "imageUrl": " https://nutriciously.com/wp-content/uploads/Pumpkin-Thai-Stir-Fry-by-Nutriciously-7.jpg",
-      "description": "  ",
+      "description": " This vegan pumpkin stir-fry, made with Red Kuri squash or any other pumkin variety, is ready in under 30 minutes.  ",
       "heading": " Ingredients",
       "ingredients": [
         "2 heaped tbsp 100% canned pumpkin puree",
@@ -265,6 +222,7 @@
         "1/2 tsp cinnamon or pumpkin pie spice",
         "1/2 tsp vanilla extract"
       ],
+      "steps": "directions",
       "method": [
         "Simply stir all ingredients (except for the coconut yogurt and pepitas) together with a fork in a mug or ramekin.",
         "It should be nice and thick.",
@@ -276,10 +234,11 @@
     },
     {
       "type": "vegetarian",
-      "id": 6,
+      "id": 11,
       "name": " Vegan Mapo Tofu",
       "imageUrl": " https://earthofmaria.com/wp-content/uploads/2018/09/easy-vegan-vegetable-pumpkin-stir-fry-5.jpg",
-      "description": " ",
+      "description": " his spicy, delicious dish usually includes small amount of ground pork, but for this vegetarian version, we use chopped shiitake mushrooms.",
+      "heading": " Ingredients",
       "ingredients": [
         "120 g organic, firm tofu",
         "2 tbsp tamari",
@@ -293,6 +252,7 @@
         "70 mls light coconut cream (approx 1/4 of a 270 mL can)",
         "1 tbsp red curry paste"
       ],
+      "steps": "directions",
       "method": [
         "Mix all marinade ingredients together in a bowl (tamari, vinegar, garlic, ginger).Then, slice tofu and cover with the marinade.",
         "Chop broccoli and ends off the bok choy and asparagus. Then, steam all until slightly tender (broccoli and asparagus usually around 3 minutes, boy choy about 1.5 minutes).",
@@ -303,42 +263,44 @@
         "Assemble greens in a bowl, place tofu on top, then pour over the sauce!"
       ]
     },
-
     {
-        "type": "vegan",
-        "id": 6,
-        "name": " Vegan Mapo Tofu",
-        "imageUrl": " https://www.seriouseats.com/thmb/ocIUDx2pM2KujaDev7IZ9dy0RIM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2013__02__2021-02-12-Vegan-Mapo-Tofu-MHOM-21-ab1d5b2229d2493b8b1889896ccf17df.jpg",
-        "description": "  ",
-        "ingredients": [
-          "120 g organic, firm tofu",
-          "2 tbsp tamari",
-          "1 tsp ginger, grated (or 0.5 tsp ginger powder) ",
-          "1 garlic clove, crushed (or 0.5 tsp garlic powder)",
-          "1 tbsp white wine vinegar",
-          "1 tsp coconut oil or generous spray of coconut oil spray",
-          "1/4 head broccoli",
-          "3 spears asparagus",
-          "1-2 bunches boy choy",
-          "70 mls light coconut cream (approx 1/4 of a 270 mL can)",
-          "1 tbsp red curry paste"
-        ],
-        "method": [
-          "Mix all marinade ingredients together in a bowl (tamari, vinegar, garlic, ginger).Then, slice tofu and cover with the marinade.",
-          "Chop broccoli and ends off the bok choy and asparagus. Then, steam all until slightly tender (broccoli and asparagus usually around 3 minutes, boy choy about 1.5 minutes).",
-          "Heat a pan over medium-high heat. ",
-          "When hot, add coconut oil to cover the pan, then throw on the tofu.",
-          " Cook for about 2-3 minutes, until brown on one side, then flip and cook for about a further minute. Remove and set aside.",
-          "Make the coconut curry sauce by simply whisking together the curry paste and coconut cream. Add a little dash of tamari and ginger powder for extra flavour if you like!",
-          "Assemble greens in a bowl, place tofu on top, then pour over the sauce!"
-        ]
-      },
+      "type": "vegan",
+      "id": 12,
+      "name": " Vegan Mapo Tofu",
+      "imageUrl": " https://www.seriouseats.com/thmb/ocIUDx2pM2KujaDev7IZ9dy0RIM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2013__02__2021-02-12-Vegan-Mapo-Tofu-MHOM-21-ab1d5b2229d2493b8b1889896ccf17df.jpg",
+      "description": " his spicy, delicious dish usually includes small amount of ground pork, but for this vegetarian version, we use chopped shiitake mushrooms. ",
+      "heading": " Ingredients",
+      "ingredients": [
+        "120 g organic, firm tofu",
+        "2 tbsp tamari",
+        "1 tsp ginger, grated (or 0.5 tsp ginger powder) ",
+        "1 garlic clove, crushed (or 0.5 tsp garlic powder)",
+        "1 tbsp white wine vinegar",
+        "1 tsp coconut oil or generous spray of coconut oil spray",
+        "1/4 head broccoli",
+        "3 spears asparagus",
+        "1-2 bunches boy choy",
+        "70 mls light coconut cream (approx 1/4 of a 270 mL can)",
+        "1 tbsp red curry paste"
+      ],
+      "steps": "directions",
+      "method": [
+        "Mix all marinade ingredients together in a bowl (tamari, vinegar, garlic, ginger).Then, slice tofu and cover with the marinade.",
+        "Chop broccoli and ends off the bok choy and asparagus. Then, steam all until slightly tender (broccoli and asparagus usually around 3 minutes, boy choy about 1.5 minutes).",
+        "Heat a pan over medium-high heat. ",
+        "When hot, add coconut oil to cover the pan, then throw on the tofu.",
+        " Cook for about 2-3 minutes, until brown on one side, then flip and cook for about a further minute. Remove and set aside.",
+        "Make the coconut curry sauce by simply whisking together the curry paste and coconut cream. Add a little dash of tamari and ginger powder for extra flavour if you like!",
+        "Assemble greens in a bowl, place tofu on top, then pour over the sauce!"
+      ]
+    },
     {
       "type": "keto",
-      "id": 3,
+      "id": 13,
       "name": " Mushroom Macaroni and Cheese",
       "imageUrl": "https://emeals-menubuilder.s3.amazonaws.com/v1/recipes/775870/pictures/large_herbed-bacon-mushroom-mac-and-cheese.jpeg",
       "description": " Tasty and filling plant-based diet recipe ",
+      "heading": " Ingredients",
       "ingredients": [
         "1 cup of Elbow macaroni and cheese",
         "1 tablespoon olive oil",
@@ -351,6 +313,7 @@
         "3 cups spinach",
         "1 cup shredded mild cheddar cheese "
       ],
+      "steps": "directions",
       "method": [
         "Bring pot of water to a bowl. ",
         "Add in margarine and macaroni and cheese.",
@@ -361,70 +324,74 @@
         "Cover spinach and Herbal Goodness Guayusa Powder mixture over macaroni. Enjoy!"
       ]
     },
-
-    {
-        "type": "keto",
-        "id": 6,
-        "name": " Avocado & black bean eggs",
-        "imageUrl": " https://www.easycheesyvegetarian.com/wp-content/uploads/2016/01/Smoky-black-bean-breakfast-bowls-4-650x964.jpg",
-        "description": " ",
-        "ingredients": [
-          "120 g organic, firm tofu",
-          "2 tbsp tamari",
-          "1 tsp ginger, grated (or 0.5 tsp ginger powder) ",
-          "1 garlic clove, crushed (or 0.5 tsp garlic powder)",
-          "1 tbsp white wine vinegar",
-          "1 tsp coconut oil or generous spray of coconut oil spray",
-          "1/4 head broccoli",
-          "3 spears asparagus",
-          "1-2 bunches boy choy",
-          "70 mls light coconut cream (approx 1/4 of a 270 mL can)",
-          "1 tbsp red curry paste"
-        ],
-        "method": [
-          "Mix all marinade ingredients together in a bowl (tamari, vinegar, garlic, ginger).Then, slice tofu and cover with the marinade.",
-          "Chop broccoli and ends off the bok choy and asparagus. Then, steam all until slightly tender (broccoli and asparagus usually around 3 minutes, boy choy about 1.5 minutes).",
-          "Heat a pan over medium-high heat. ",
-          "When hot, add coconut oil to cover the pan, then throw on the tofu.",
-          " Cook for about 2-3 minutes, until brown on one side, then flip and cook for about a further minute. Remove and set aside.",
-          "Make the coconut curry sauce by simply whisking together the curry paste and coconut cream. Add a little dash of tamari and ginger powder for extra flavour if you like!",
-          "Assemble greens in a bowl, place tofu on top, then pour over the sauce!"
-        ]
-      },
-      {
-        "type": "keto",
-        "id": 3,
-        "name": " Mushroom Macaroni and Cheese",
-        "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/3/7/1/GH0616H_Mushroom-Mac-and-Cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1394558591021.jpeg",
-        "description": " Tasty and filling plant-based diet recipe ",
-        "ingredients": [
-          "1 cup of Elbow macaroni and cheese",
-          "1 tablespoon olive oil",
-          "1 tablespoon margarine",
-          "1/2 cup of sliced mushrooms",
-          "2 teaspoons of thyme",
-          "1 teaspoon Herbal Goodness Guayusa Powder",
-          "1/4 cup of milk",
-          "1 egg",
-          "3 cups spinach",
-          "1 cup shredded mild cheddar cheese "
-        ],
-        "method": [
-          "Bring pot of water to a bowl. ",
-          "Add in margarine and macaroni and cheese.",
-          "Cook pasta until it's tender. ",
-          "Drain and stir in egg, milk and cheddar cheese. ",
-          "In a skillet, add olive oil, mushrooms, spinach, thyme and HerbalGoodness Guayusa Powder.",
-          "Cook until mushrooms and spinach are tender.",
-          "Cover spinach and Herbal Goodness Guayusa Powder mixture over macaroni. Enjoy!"
-        ]
-      },
     {
       "type": "keto",
-      "id": 4,
+      "id": 14,
+      "name": " Avocado & black bean eggs",
+      "imageUrl": " https://www.easycheesyvegetarian.com/wp-content/uploads/2016/01/Smoky-black-bean-breakfast-bowls-4-650x964.jpg",
+      "description": " This Tomato, Avocado & Black Bean Eggs recipe is perfect for egg-lovers who want to pack in some veggies and fiber in the morning.",
+      "heading": " Ingredients",
+      "ingredients": [
+        "120 g organic, firm tofu",
+        "2 tbsp tamari",
+        "1 tsp ginger, grated (or 0.5 tsp ginger powder) ",
+        "1 garlic clove, crushed (or 0.5 tsp garlic powder)",
+        "1 tbsp white wine vinegar",
+        "1 tsp coconut oil or generous spray of coconut oil spray",
+        "1/4 head broccoli",
+        "3 spears asparagus",
+        "1-2 bunches boy choy",
+        "70 mls light coconut cream (approx 1/4 of a 270 mL can)",
+        "1 tbsp red curry paste"
+      ],
+      "steps": "directions",
+      "method": [
+        "Mix all marinade ingredients together in a bowl (tamari, vinegar, garlic, ginger).Then, slice tofu and cover with the marinade.",
+        "Chop broccoli and ends off the bok choy and asparagus. Then, steam all until slightly tender (broccoli and asparagus usually around 3 minutes, boy choy about 1.5 minutes).",
+        "Heat a pan over medium-high heat. ",
+        "When hot, add coconut oil to cover the pan, then throw on the tofu.",
+        " Cook for about 2-3 minutes, until brown on one side, then flip and cook for about a further minute. Remove and set aside.",
+        "Make the coconut curry sauce by simply whisking together the curry paste and coconut cream. Add a little dash of tamari and ginger powder for extra flavour if you like!",
+        "Assemble greens in a bowl, place tofu on top, then pour over the sauce!"
+      ]
+    },
+    {
+      "type": "keto",
+      "id": 15,
+      "name": " Mushroom Macaroni and Cheese",
+      "imageUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/3/7/1/GH0616H_Mushroom-Mac-and-Cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1394558591021.jpeg",
+      "description": " Tasty and filling plant-based diet recipe ",
+      "heading": " Ingredients",
+      "ingredients": [
+        "1 cup of Elbow macaroni and cheese",
+        "1 tablespoon olive oil",
+        "1 tablespoon margarine",
+        "1/2 cup of sliced mushrooms",
+        "2 teaspoons of thyme",
+        "1 teaspoon Herbal Goodness Guayusa Powder",
+        "1/4 cup of milk",
+        "1 egg",
+        "3 cups spinach",
+        "1 cup shredded mild cheddar cheese "
+      ],
+      "steps": "directions",
+      "method": [
+        "Bring pot of water to a bowl. ",
+        "Add in margarine and macaroni and cheese.",
+        "Cook pasta until it's tender. ",
+        "Drain and stir in egg, milk and cheddar cheese. ",
+        "In a skillet, add olive oil, mushrooms, spinach, thyme and HerbalGoodness Guayusa Powder.",
+        "Cook until mushrooms and spinach are tender.",
+        "Cover spinach and Herbal Goodness Guayusa Powder mixture over macaroni. Enjoy!"
+      ]
+    },
+    {
+      "type": "keto",
+      "id": 16,
       "name": " Sesame Tofu and Spinach Stirfry",
       "imageUrl": " https://static01.nyt.com/images/2019/05/15/dining/10apperex/merlin_153889965_feea5b25-bb89-4efe-b218-2457f27c8cc0-master768.jpg",
-      "description": "  ",
+      "description": " Crispy tofu and fresh vegetables like broccoli and spinach, sautéed in a quick and easy garlic sesame sauce. ",
+      "heading": " Ingredients",
       "ingredients": [
         "300 g organic, firm tofu",
         "1 tbsp coconut oil",
@@ -438,6 +405,7 @@
         "1/4 tsp chili flakes",
         "12 almonds"
       ],
+      "steps": "directions",
       "method": [
         "Drain the tofu. ",
         "Wrap each block in a double layer of paper towels and pat dry, pressing down on the tofu lightly to squeeze out excess moisture. ",
@@ -452,10 +420,10 @@
     },
     {
       "type": "keto",
-      "id": 5,
+      "id": 17,
       "name": "  vegetable pumpkin stir-fry",
       "imageUrl": "https://media.healthyfood.com/wp-content/uploads/2016/11/Chicken-and-pumpkin-stir-fry-1024x650.jpg",
-      "description": "  ",
+      "description": " I'd 100% recommend you use Red Kuri squash for this pumpkin stir-fry recipe. It has a subtle sweet flavor and a dense texture ",
       "heading": " Ingredients",
       "ingredients": [
         "2 heaped tbsp 100% canned pumpkin puree",
@@ -469,6 +437,7 @@
         "1/2 tsp cinnamon or pumpkin pie spice",
         "1/2 tsp vanilla extract"
       ],
+      "steps": "directions",
       "method": [
         "Simply stir all ingredients (except for the coconut yogurt and pepitas) together with a fork in a mug or ramekin.",
         "It should be nice and thick.",
@@ -480,10 +449,11 @@
     },
     {
       "type": "keto",
-      "id": 6,
-      "name": " Vegan Mapo Tofu",
+      "id": 18,
+      "name": " keto Mapo Tofu",
       "imageUrl": " https://www.seriouseats.com/thmb/ocIUDx2pM2KujaDev7IZ9dy0RIM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2013__02__2021-02-12-Vegan-Mapo-Tofu-MHOM-21-ab1d5b2229d2493b8b1889896ccf17df.jpg",
-      "description": "  ",
+      "description": " This easy Mapo Tofu recipe is simple and fast less than 15 mins. It is gluten-free ",
+      "heading": " Ingredients",
       "ingredients": [
         "120 g organic, firm tofu",
         "2 tbsp tamari",
@@ -497,6 +467,7 @@
         "70 mls light coconut cream (approx 1/4 of a 270 mL can)",
         "1 tbsp red curry paste"
       ],
+      "steps": "directions",
       "method": [
         "Mix all marinade ingredients together in a bowl (tamari, vinegar, garlic, ginger).Then, slice tofu and cover with the marinade.",
         "Chop broccoli and ends off the bok choy and asparagus. Then, steam all until slightly tender (broccoli and asparagus usually around 3 minutes, boy choy about 1.5 minutes).",
@@ -509,10 +480,11 @@
     },
     {
       "type": "paleo",
-      "id": 3,
+      "id": 19,
       "name": " Mushroom Macaroni and Cheese",
       "imageUrl": " https://img.taste.com.au/vEJ9w_Zy/w720-h480-cfill-q80/taste/2019/02/healthy-tuna-mornay-153401-1.jpg",
       "description": " Tasty and filling plant-based diet recipe ",
+      "heading": " Ingredients",
       "ingredients": [
         "1 cup of Elbow macaroni and cheese",
         "1 tablespoon olive oil",
@@ -525,6 +497,7 @@
         "3 cups spinach",
         "1 cup shredded mild cheddar cheese "
       ],
+      "steps": "directions",
       "method": [
         "Bring pot of water to a bowl. ",
         "Add in margarine and macaroni and cheese.",
@@ -537,10 +510,11 @@
     },
     {
       "type": "paleo",
-      "id": 4,
+      "id": 20,
       "name": " Sesame Tofu and Spinach Stirfry",
       "imageUrl": " https://static01.nyt.com/images/2019/05/15/dining/10apperex/merlin_153889965_feea5b25-bb89-4efe-b218-2457f27c8cc0-master768.jpg",
-      "description": "  ",
+      "description": " Tasty and filling plant-based diet recipe ",
+      "heading": " Ingredients",
       "ingredients": [
         "300 g organic, firm tofu",
         "1 tbsp coconut oil",
@@ -554,6 +528,7 @@
         "1/4 tsp chili flakes",
         "12 almonds"
       ],
+      "steps": "directions",
       "method": [
         "Drain the tofu. ",
         "Wrap each block in a double layer of paper towels and pat dry, pressing down on the tofu lightly to squeeze out excess moisture. ",
@@ -568,10 +543,10 @@
     },
     {
       "type": "paleo",
-      "id": 5,
+      "id": 21,
       "name": "  vegetable pumpkin stir-fry",
       "imageUrl": "https://media.healthyfood.com/wp-content/uploads/2016/11/Chicken-and-pumpkin-stir-fry-1024x650.jpg",
-      "description": "  ",
+      "description": " This paleo pumpkin stir-fry, made with Red Kuri squash or any other pumkin variety, is ready in under 30 minutes. ",
       "heading": " Ingredients",
       "ingredients": [
         "2 heaped tbsp 100% canned pumpkin puree",
@@ -585,6 +560,7 @@
         "1/2 tsp cinnamon or pumpkin pie spice",
         "1/2 tsp vanilla extract"
       ],
+      "steps": "directions",
       "method": [
         "Simply stir all ingredients (except for the coconut yogurt and pepitas) together with a fork in a mug or ramekin.",
         "It should be nice and thick.",
@@ -596,10 +572,11 @@
     },
     {
       "type": "paleo",
-      "id": 6,
-      "name": " Vegan Mapo Tofu",
+      "id": 22,
+      "name": " paleo Mapo Tofu",
       "imageUrl": " https://www.seriouseats.com/thmb/ocIUDx2pM2KujaDev7IZ9dy0RIM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2013__02__2021-02-12-Vegan-Mapo-Tofu-MHOM-21-ab1d5b2229d2493b8b1889896ccf17df.jpg",
-      "description": "  ",
+      "description": " This paleo pumpkin stir-fry, made with Red Kuri squash or any other pumkin variety, is ready in under 30 minutes. ",
+      "heading": " Ingredients",
       "ingredients": [
         "120 g organic, firm tofu",
         "2 tbsp tamari",
@@ -613,6 +590,7 @@
         "70 mls light coconut cream (approx 1/4 of a 270 mL can)",
         "1 tbsp red curry paste"
       ],
+      "steps": "directions",
       "method": [
         "Mix all marinade ingredients together in a bowl (tamari, vinegar, garlic, ginger).Then, slice tofu and cover with the marinade.",
         "Chop broccoli and ends off the bok choy and asparagus. Then, steam all until slightly tender (broccoli and asparagus usually around 3 minutes, boy choy about 1.5 minutes).",
@@ -624,18 +602,76 @@
       ]
     },
     {
-      "name": "paleo bowl",
-      "description": "hnnnnnnnnnnnnnnnnn",
-      "imageUrl": "jjjjjjjjjjjjjjjjjjjjjjjjjj",
-      "diet": "paleo",
-      "id": 7
+      "type": "paleo",
+      "id": 23,
+      "name": " Lobster Salad",
+      "imageUrl": " https://healthyrecipesblogs.com/wp-content/uploads/2022/10/lobster-salad-featured.jpg",
+      "description": " This paleo pumpkin stir-fry, made with Red Kuri squash or any other pumkin variety, is ready in under 30 minutes. ",
+      "heading": " Ingredients",
+      "ingredients": [
+        " 1/4 c. mayonnaise",
+        "1 stalk celery, finely diced",
+        "2 tbsp. lemon juice",
+        "2 tbsp. finely chopped chives, plus more for serving",
+        "Kosher salt",
+        "3 (12-oz.) lobster tails, steamed, meat removed and chopped (3 c.)",
+        "Butterhead lettuce, for serving",
+        "Sliced avocado, for serving",
+        "Lemon wedges, for serving"
+      ],
+      "steps": "directions",
+      "method": [
+        "In a bowl, stir together mayonnaise, celery, lemon juice, and chives. ",
+        "Season with salt.",
+        "Fold in chopped lobster meat.",
+        "Lay lettuce on a serving platter, then top with lobster salad. ",
+        "Garnish with avocado, more chives, and a squeeze of lemon."
+      ]
+    },
+    {
+      "type": "paleo",
+      "id": 24,
+      "name": " Ambrosia Salad",
+      "imageUrl": " https://www.mybakingaddiction.com/wp-content/uploads/2014/09/ambrosia-salad-in-serving-bowl.jpg",
+      "description": " This paleo pumpkin stir-fry, made with Red Kuri squash or any other pumkin variety, is ready in under 30 minutes. ",
+      "heading": " Ingredients",
+      "ingredients": [
+        "1 1/2 c. Cool Whip",
+        "1/2 c. sour cream",
+        "3 c. mini marshmallows",
+        "1 (15-oz.) can mandarin oranges, drained",
+        "1 c. chopped fresh pineapple",
+        "1 c. shredded coconut",
+        "3/4 c. halved maraschino cherries (stems removed), drained",
+        "3/4 c. toasted pecans"
+      ],
+      "steps": "directions",
+      "method": [
+        "In a large bowl, fold together Cool Whip and sour cream. ",
+        "Add oranges, pineapple, cherries, coconut, pecans, and marshmallows and stir gently. ",
+        "Cover and refrigerate for at least 1 hour and up to overnight."
+      ]
     },
     {
       "name": "paleo bowl",
-      "description": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
+      "description": "Tasty meal",
       "imageUrl": "https://media.theeverygirl.com/wp-content/uploads/2018/08/15-Paleo-Recipes-You-Can-Meal-Prep-on-Sunday-s.jpg",
       "diet": "paleo",
-      "id": 8
+      "id": 25
+    },
+    {
+      "name": "chicken",
+      "description": "Tasty and yummy",
+      "imageUrl": "https://www.simplyrecipes.com/thmb/kXlwoFywQnKslGFWSKREkOddZrY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__01__Butter-Chicken-LEAD-5-de97119a16124a31a3b99ee16a398612.jpg",
+      "diet": "keto",
+      "id": 26
+    },
+    {
+      "name": "rice",
+      "description": "i love rice",
+      "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2017/03/Rice-recipes-0d773c4.jpg?resize=768,574",
+      "diet": "paleo",
+      "id": 27
     }
   ]
 }

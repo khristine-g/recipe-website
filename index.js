@@ -6,10 +6,10 @@ dropdownToggle.addEventListener('click', () => {
 
 
 // const allCategories = document.querySelector('#all-categories');
-const breakfast = document.querySelector('#vegan');
-const lunch = document.querySelector('#vegeterian');
-const dinner = document.querySelector('#keto');
-const dessert = document.querySelector('#paleo');
+const veganFood = document.querySelector('#vegan');
+const vegetarianFood= document.querySelector('#vegeterian');
+const ketoFood= document.querySelector('#keto');
+const paleoFood= document.querySelector('#paleo');
 
 // allCategories.addEventListener('click', () => {
 //   fetchRecipes(recipes);
@@ -31,7 +31,7 @@ vegan.addEventListener('click', () => {
     fetchRecipes('paleo');
   });
 
-// 
+ 
 
 
 
@@ -74,7 +74,7 @@ const displayRecipes = (recipes) => {
     `;
 
 
-    const cardList = document.querySelectorAll('.card');
+const cardList = document.querySelectorAll('.card');
 
 cardList.forEach((card) => {
   card.addEventListener('mouseover', () => {
@@ -86,11 +86,11 @@ cardList.forEach((card) => {
   });
 });
     
-    // add event listeners to recipe buttons
+    // add event listener to recipe buttons
     const recipeBtns = document.querySelectorAll('.recipe-btn');
     recipeBtns.forEach((btn) => {
       btn.addEventListener('click', (event) => {
-        const index = parseInt(event.target.id.split('-')[2]);
+        const index = (event.target.id.split('-')[2]);
         moreInfo(index);
       });
     });
@@ -198,32 +198,16 @@ recipeForm.addEventListener('submit', (event) => {
     });
 });
 
-// fetch('http://localhost:3000/recipes/1', {
-//     method: 'DELETE'
-//   }).then(response => {
-//     if (response.ok) {
-//       console.log('Recipe deleted successfully');
-//     } else {
-//       console.error('Failed to delete recipe');
-//     }
-//   }).catch(error => {
-//     console.error('Failed to delete recipe:', error);
-//   });
+fetch('http://localhost:3000/recipes/2', {
+    method: 'DELETE'
+  }).then(response => {
+    if (response.ok) {
+      console.log('Recipe deleted successfully');
+    } else {
+      console.error('Failed to delete recipe');
+    }
+  }).catch(error => {
+    console.error('Failed to delete recipe:', error);
+  });
   
 
-
-
-
-  
-  
-  
-
-  
-//   const fetchRecipes = () => {
-//     fetch('http://localhost:3000/recipes')
-//       .then(res => res.json())
-//       .then(recipes => displayRecipes(recipes));
-//   };
-  
-//   fetchRecipes();
-  
