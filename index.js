@@ -135,21 +135,21 @@ cardList.forEach((card) => {
   };
 
 
-  const fetchRecipes = (filter = '') => {
-    let url = 'http://localhost:3000/recipes';
+  // const fetchRecipes = (filter = '') => {
+  //   let url = 'http://localhost:3000/recipes';
     
-    if (filter !== '') {
-      url += `?type=${filter}`;
-    }
+  //   if (filter !== '') {
+  //     url += `?type=${filter}`;
+  //   }
   
-    fetch(url)
-      .then(res => res.json())
-      .then(recipes => displayRecipes(recipes));
-  };
+  //   fetch(url)
+  //     .then(res => res.json())
+  //     .then(recipes => displayRecipes(recipes));
+  // };
 
-  window.addEventListener('load', () => {
-    fetchRecipes();
-  });
+  // window.addEventListener('load', () => {
+  //   fetchRecipes();
+  // });
 
   // Add event listener to the form submit event
 const form = document.querySelector("#add-recipe-form");
