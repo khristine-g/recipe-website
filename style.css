@@ -1,4 +1,4 @@
-.card-grid {
+ /* .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -17,7 +17,7 @@
 
   }
   h1{
-    /* text-shadow: 2px 2px 5px red; */
+    text-shadow: 2px 2px 5px red; 
     color: blueviolet;
     text-align: center;
   }
@@ -35,4 +35,4 @@
 
   }
   
-  
+    */
