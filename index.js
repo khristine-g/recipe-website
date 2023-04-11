@@ -198,16 +198,16 @@ recipeForm.addEventListener('submit', (event) => {
     });
 });
 
-fetch('http://localhost:3000/recipes/2', {
-    method: 'DELETE'
-  }).then(response => {
-    if (response.ok) {
-      console.log('Recipe deleted successfully');
-    } else {
-      console.error('Failed to delete recipe');
-    }
-  }).catch(error => {
-    console.error('Failed to delete recipe:', error);
-  });
+// fetch('http://localhost:3000/recipes/2', {
+//     method: 'DELETE'
+//   }).then(response => {
+//     if (response.ok) {
+//       console.log('Recipe deleted successfully');
+//     } else {
+//       console.error('Failed to delete recipe');
+//     }
+//   }).catch(error => {
+//     console.error('Failed to delete recipe:', error);
+//   });
   
 
