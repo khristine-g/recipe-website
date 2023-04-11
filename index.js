@@ -11,25 +11,25 @@ const vegetarianFood= document.querySelector('#vegeterian');
 const ketoFood= document.querySelector('#keto');
 const paleoFood= document.querySelector('#paleo');
 
-// allCategories.addEventListener('click', () => {
-//   fetchRecipes(recipes);
-// });
+allCategories.addEventListener('click', () => {
+  fetchRecipes(recipes);
+});
 
-// vegan.addEventListener('click', () => {
-//     fetchRecipes('vegan');
-//   });
+vegan.addEventListener('click', () => {
+    fetchRecipes('vegan');
+  });
   
-//   vegetarian.addEventListener('click', () => {
-//     fetchRecipes('vegetarian');
-//   });
+  vegetarian.addEventListener('click', () => {
+    fetchRecipes('vegetarian');
+  });
   
-//   keto.addEventListener('click', () => {
-//     fetchRecipes('keto');
-//   });
+  keto.addEventListener('click', () => {
+    fetchRecipes('keto');
+  });
   
-//   paleo.addEventListener('click', () => {
-//     fetchRecipes('paleo');
-//   });
+  paleo.addEventListener('click', () => {
+    fetchRecipes('paleo');
+  });
 
  
 
