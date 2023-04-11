@@ -74,17 +74,17 @@ const displayRecipes = (recipes) => {
     `;
 
 
-// const cardList = document.querySelectorAll('.card');
+const cardList = document.querySelectorAll('.card');
 
-// cardList.forEach((card) => {
-//   card.addEventListener('mouseover', () => {
-//     card.style.transform = 'translateY(-10px)';
-//   });
+cardList.forEach((card) => {
+  card.addEventListener('mouseover', () => {
+    card.style.transform = 'translateY(-10px)';
+  });
 
-//   card.addEventListener('mouseout', () => {
-//     card.style.transform = 'translateY(0px)';
-//   });
-// });
+  card.addEventListener('mouseout', () => {
+    card.style.transform = 'translateY(0px)';
+  });
+});
     
     // add event listener to recipe buttons
     const recipeBtns = document.querySelectorAll('.recipe-btn');
