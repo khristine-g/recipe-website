@@ -152,8 +152,8 @@ cardList.forEach((card) => {
   });
 
   // Add event listener to the form submit event
-// const form = document.querySelector("#add-recipe-form");
-// form.addEventListener("submit", addRecipe);
+const form = document.querySelector("#add-recipe-form");
+form.addEventListener("submit", addRecipe);
 
 // Event handler function for the form submit event
 function addRecipe(event) {
