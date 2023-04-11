@@ -35,36 +35,36 @@ vegan.addEventListener('click', () => {
 
 
 
-// const displayRecipes = (recipes) => {
-//     let card = '';
-//     recipes.forEach((recipe, index) => {
-//       card += `
+const displayRecipes = (recipes) => {
+    let card = '';
+    recipes.forEach((recipe, index) => {
+      card += `
 
       
-//         <div class="card" style="width:25rem;  transform: scale(1); transition: all 2s;">
-//           <img class="card-img-top" src="${recipe.imageUrl}" alt="Card image cap"> 
-//           <div class="card-body">
-//             <h5 class="card-title">${recipe.name}</h5>
-//             <p class="card-text">${recipe.description}</p>
-//             <div>
-//             <h6 class="rating" style="color:red;">Star Rating</h6>
-//             <span class="fa fa-star checked" style = "color:orange;"></span>
-//             <span class="fa fa-star checked" style = "color:orange;></span>
-//             <span class="fa fa-star checked" style = "color:orange;></span>
-//             <span class="fa fa-star"></span>
-//             <span class="fa fa-star"></span>    
-//             </div>
-//             <a href="#" class="btn btn-primary recipe-btn" id="recipe-btn-${index}">See recipe</a> 
+        <div class="card" style="width:25rem;  transform: scale(1); transition: all 2s;">
+          <img class="card-img-top" src="${recipe.imageUrl}" alt="Card image cap"> 
+          <div class="card-body">
+            <h5 class="card-title">${recipe.name}</h5>
+            <p class="card-text">${recipe.description}</p>
+            <div>
+            <h6 class="rating" style="color:red;">Star Rating</h6>
+            <span class="fa fa-star checked" style = "color:orange;"></span>
+            <span class="fa fa-star checked" style = "color:orange;></span>
+            <span class="fa fa-star checked" style = "color:orange;></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>    
+            </div>
+            <a href="#" class="btn btn-primary recipe-btn" id="recipe-btn-${index}">See recipe</a> 
             
-//           </div>
+          </div>
          
-//         </div>
+        </div>
         
-//       `;
+      `;
 
       
   
-//     });
+    });
 
   
     document.querySelector('#recipe-info').innerHTML = `
