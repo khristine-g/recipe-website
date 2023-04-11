@@ -107,32 +107,32 @@ cardList.forEach((card) => {
  };
   
   
-  const moreInfo = (index) => {
-    fetch('http://localhost:3000/recipes')
-      .then(res => res.json())
-      .then(recipes => {
-        const recipe = recipes[index];
-        const info = `
-        <div >
-          <div class= "divDetails">
-          <h2 class="recipeName" "> ${recipe.name}</h2>
-          <img class="card-img-top" src="${recipe.imageUrl}" alt="Card image cap"  style= "width:60%;height:400px; max-width: 100%;; " ;> 
-           </div>
-            <h3 class="heading" style="text-align:center;"> ${recipe.heading}</h3>
+  // const moreInfo = (index) => {
+  //   fetch('http://localhost:3000/recipes')
+  //     .then(res => res.json())
+  //     .then(recipes => {
+  //       const recipe = recipes[index];
+  //       const info = `
+  //       <div >
+  //         <div class= "divDetails">
+  //         <h2 class="recipeName" "> ${recipe.name}</h2>
+  //         <img class="card-img-top" src="${recipe.imageUrl}" alt="Card image cap"  style= "width:60%;height:400px; max-width: 100%;; " ;> 
+  //          </div>
+  //           <h3 class="heading" style="text-align:center;"> ${recipe.heading}</h3>
             
-            <p class" ingredients" style= "text-align:center; font-size:20px;">${recipe.ingredients.join('<br>')}</p>
-            <h3 class= "steps" style="text-align:center; "> ${recipe.steps}</h3>
-            <p class="method" style="text-align:center; font-size:20px;">${recipe.method}</p>
-            <button class="btn btn-primary back-btn" style=" position: fixed; top: 20px;right: 20px;">Back to recipes</button>
-          </div>
-        `;
-        document.querySelector('#recipe-info').innerHTML = info;
-        const backBtn = document.querySelector('.back-btn');
-        backBtn.addEventListener('click', () => {
-          displayRecipes(recipes);
-        });
-      });
-  };
+  //           <p class" ingredients" style= "text-align:center; font-size:20px;">${recipe.ingredients.join('<br>')}</p>
+  //           <h3 class= "steps" style="text-align:center; "> ${recipe.steps}</h3>
+  //           <p class="method" style="text-align:center; font-size:20px;">${recipe.method}</p>
+  //           <button class="btn btn-primary back-btn" style=" position: fixed; top: 20px;right: 20px;">Back to recipes</button>
+  //         </div>
+  //       `;
+  //       document.querySelector('#recipe-info').innerHTML = info;
+  //       const backBtn = document.querySelector('.back-btn');
+  //       backBtn.addEventListener('click', () => {
+  //         displayRecipes(recipes);
+  //       });
+  //     });
+  //};
 
 
   const fetchRecipes = (filter = '') => {
