@@ -180,23 +180,23 @@ recipeForm.addEventListener('submit', (event) => {
 
   const data = { name, description, imageUrl, diet };
 
-//   fetch(' http://localhost:3000/recipes', {
-//     method: 'POST',
-//     headers: { 'Content-Type': 'application/json' },
-//     body: JSON.stringify(data),
-//   })
-//     .then((response) => response.json())
-//     .then((data) => {
-//       console.log('Success:', data);
-//       // Reset the form
-//       form.reset();
-//       // Fetch the updated recipes and display them
-//       fetchRecipes();
-//     })
-//     .catch((error) => {
-//       console.error('Error:', error);
-//     });
-// });
+  fetch(' http://localhost:3000/recipes', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(data),
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      console.log('Success:', data);
+      // Reset the form
+      form.reset();
+      // Fetch the updated recipes and display them
+      fetchRecipes();
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+    });
+});
 
 fetch('http://localhost:3000/recipes/2', {
     method: 'DELETE'
